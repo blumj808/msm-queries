@@ -41,10 +41,10 @@
 <% matching_movies.each do |a_movie| %>
 <tr>
 <td><%= a_movie.id %></td>
-<td><%= a_movie.image %></td>
+<td><img src="<%= a_movie.image %>"></td>
 <td><%= a_movie.title %></td>
 <td><%= a_movie.year %></td>
-<td><%= a_movie.director_id %></td>
+<td><%= @the_director.name %></td>
 <td>Show details</td>
 </tr>
 
