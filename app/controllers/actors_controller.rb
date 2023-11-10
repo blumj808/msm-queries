@@ -1,6 +1,6 @@
 class ActorsController < ApplicationController
   def index
-render({ :template => "actors_templates/list"})
+render({ :template => "actor_templates/list"})
   end
 
   def show
